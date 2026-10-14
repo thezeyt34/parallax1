@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cast &amp; Render — 3D Object Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://d2ol7oe51mr4n9.cloudfront.net" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="boot" id="boot">
+  <div class="bar"><i id="bootBar"></i></div>
+  <p id="bootPct">LOADING 0%</p>
+</div>
+
+<div class="stage">
+  <video id="clip" muted playsinline preload="auto" disablepictureinpicture></video>
+  <div class="veil"></div>
+  <div class="grain"></div>
+</div>
+
+<i class="meter" id="meter"></i>
+
+<header class="chrome">
+  <div class="mark"><span class="mark-star" aria-hidden="true">&#10037;</span>&nbsp;Cast &amp; Render</div>
+  <nav class="nav">
+    <a href="#board">Works</a>
+    <a href="#visit">About</a>
+    <a class="pill" href="#order">Start a brief</a>
+  </nav>
+</header>
+
+<main class="panels">
+  <section class="panel" data-panel>
+    <div class="eyebrow">Objects studio <span>&middot;</span> No. 112 Render Lane</div>
+    <h1>Built at four.<br />Out by seven.</h1>
+    <p class="sub">Six kinds of mesh, one render farm, and a queue that starts before the sun does.</p>
+    <div class="cta"><a class="pill" href="#board">View the reel</a></div>
+  </section>
+
+  <section class="panel" data-panel>
+    <div class="eyebrow">Across the studio</div>
+    <h1>Flat, never bent.</h1>
+    <p class="sub">The mesh should still be clean when it reaches the viewport. We export to order, never before.</p>
+    <div class="cta"><a class="pill" href="#visit">Tour our space</a></div>
+  </section>
+
+  <section class="panel" data-panel>
+    <div class="eyebrow">The surface</div>
+    <h1>Smooth enough to<br />hold a light pass.</h1>
+    <p class="sub">Custom surface shaders whipped every morning, spread to the edge and weighed by the quarter pound.</p>
+    <div class="cta"><a class="pill" href="#order">Start a brief</a></div>
+  </section>
+</main>
+
+<footer class="foot">112 Render Lane &nbsp;&middot;&nbsp; Tue–Sun, 9am till sold out</footer>
+
+<div class="track"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
